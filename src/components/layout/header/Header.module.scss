@@ -1,0 +1,26 @@
+
+
+.header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+
+    &__logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+        font-size: 20px;
+
+
+        &__img {
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
